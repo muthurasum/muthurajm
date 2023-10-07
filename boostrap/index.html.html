@@ -1,0 +1,279 @@
+<html>
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+div.gallery {
+  width:400px;
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.checked{
+color:orange;}
+</style>
+</head>
+<body>
+<!--navigation-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark" >
+<div class="container-fluid">
+<a class="navbar-brand" href="#">CRICKET WORLD</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" style="margin-left:700px" id="mynavbar">
+<ul class="navbar-nav me-auto">
+<li class="navbar-item">
+<a class="nav-link active" href="#demo">Home</a>
+</li>
+<li class="navbar-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+<li class="navbar-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="drop" role="button" data-bs-toggle="dropdown">Categories</a>
+<ul class="dropdown-menu" aria-labelledby="drop">
+<li><a class="dropdown-item" href="#personalized">Batting players</a></li>
+<li><a class="dropdown-item" href="#spcl">Bowling players</a></li>
+</ul>
+</li>
+<li class="navbar-item">
+<a class="nav-link" href="#review">Review</a>
+</li>
+<li class="navbar-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+</ul>
+
+<form class="d-flex">
+<button class="btn btn-primary" type="button">Login</button>
+</form>
+</div>
+</div>
+</nav>
+
+
+<!--carousel-->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+
+</div>
+
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="c1.jpg" class="d-block" style="width:1370px;height:550px">
+<div class="carousel-caption">
+<h3>Welcome To </h3>
+<p>Muthu Sports Acadamy </p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="m2.jpg" class="d-block" style="width:1370px;height:550px">
+<div class="carousel-caption">
+<h3>My Favorite Player</h3>
+<p>Cricket</p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="m3.jpg" class="d-block" style="width:1370px;height:550px">
+<div class="carousel-caption">
+<h3>LEGEND</h3>
+<p>Cricket</p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="b3.WEBP" class="d-block" style="width:1370px;height:550px">
+<div class="carousel-caption">
+<h3>like This</h3>
+<p> Batting And Bowling</p>
+</div>
+</div>
+
+
+</div>
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!--about-->
+<div id="about">
+<h1 style="text-align:center;color:yellow;">About Games </h1>
+<p style="text-align:center;font-size:30px;color:red;">Cricket Legend's</p>
+</div>
+<div id="personalized">
+<h1 style="color:green">CRICKET LEGEND'S</h1>
+<p style="font-family:Lucida Handwriting" >Batting   LEGENDS And   Most Experience Players This People</p>
+ <div class="container-fluid">
+ <div class="row">
+      <div class="col-sm p-1">
+	  <div class="gallery">
+	  <img src="m2.jpg" style="width:400px;height:400px;">
+	  <p style="text-align:center;font-weight:bold;font-size:80px;font-family:Brush Script MT">DHONI</p></div>
+	  </div>
+	  
+	  <div class="col-sm p-1">
+	  <div class="gallery">
+	  <img src="m3.jpg" style="width:400px;height:400px;">
+	  <p style="text-align:center;font-weight:bold;font-size:80px;font-family:Brush Script MT">RAINA</p></div>
+	  </div>
+	  
+	  <div class="col-sm p-1">
+	  <div class="gallery">
+	  <img src="m1.webp" style="width:400px;height:400px;">
+	  <p style="text-align:center;font-weight:bold;font-size:80px;font-family:Brush Script MT">VIRAT</p></div>
+	  </div>
+	  
+ </div>
+ </div>
+ </div>
+ 
+<div id="spcl">
+<h1 style="color:indigo;">LEGENDS BOWLER'S</h1>
+<p style="font-family:Lucida Handwriting" > BOWLING LEGENDS</p>
+ <div class="container-fluid">
+ <div class="row">
+     <div class="col-sm p-2" style="border:40px solid #ccc;margin:20px;border-width:10px;">
+	  <img src="b3.webp" style="width:200px;height:100px;">
+	  <p style="margin-left:40px;font-size:40px;font-family:brush script mt">R Jadeja</p>
+	 </div>
+	  
+	 <div class="col-sm p-2" style="border:40px solid #ccc;margin:20px;border-width:10px;">
+	  <img src="b2.jpg" style="width:200px;height:100px;">
+	  <p style="margin-left:40px;font-size:40px;font-family:brush script mt">M Sharma</p>
+	 </div>
+	 <div class="col-sm p-2" style="border:40px solid #ccc;margin:20px;border-width:10px;">
+	  <img src="b1.jpg" style="width:200px;height:100px;">
+	  <p style="margin-left:40px;font-size:40px;font-family:brush script mt"> B Kumar</p>
+	 </div>
+ 
+</div>
+</div>
+</div>
+
+<!--review-->
+<div id="review">
+<h1 style="text-align:center;color:blue;"> Ratings for Players</h1>
+<div class="container-fluid">
+ <div class="row">
+      <div class="col-sm p-2">
+	  <div class="gallery">
+	  <p style="text-align:center;font-size:20px;">dhoni is very good wicket keepr and long experience.</p>
+	  <span class="fa fa-star checked"></span>
+	  <span class="fa fa-star checked"></span>
+	  <span class="fa fa-star checked"></span>
+	  <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+</div>
+	  </div>
+	  
+	        <div class="col-sm p-2">
+	  <div class="gallery">
+	  <p style="text-align:center;font-size:20px;">virat kholi batting is very amazing</p>
+	  <span class="fa fa-star checked"></span>
+	  <span class="fa fa-star checked"></span>
+	  <span class="fa fa-star checked"></span>
+	  <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+</div>
+	  </div>
+	  
+	        <div class="col-sm p-2">
+	  <div class="gallery">
+	  <p style="text-align:center;font-size:20px;">It was a wonderful  batting for raina and all rounder player</p>
+	  <span class="fa fa-star checked" ></span>
+	  <span class="fa fa-star checked"></span>
+	  <span class="fa fa-star checked"></span>
+	  <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+</div>
+	  </div>
+	  
+
+	  
+	  <div class=
+</div>
+	  </div>
+	  
+	  </div>
+	  </div>
+	  </div>
+<!--contact-->
+<div class="bg-dark " id="contact" style="text-align:center;">
+<p style="font-size:40px;color:white;">((((((((Contact Us))))))))</p>
+<a href="#" class="fa fa-whatsapp" ></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-telegram"></a>
+<p style="font-family:lucidia Handwriting;font-size:20px;color:white">Muthu Sports acadamy</p>
+<p style="color:white;">>>>>>>>>>>>>> muthurasu@gamil.com</p>
+
+<ul class="breadcrumb" style="margin-right:200px;">
+    <li class="breadcrumb-item"><a href="#">Privacy Policy</a></li>
+    <li class="breadcrumb-item"><a href="#"> Cricket Website accessibility</a></li>
+
+    
+  </ul>
+
+</div>
+
+</body>
+</html>
